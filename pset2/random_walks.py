@@ -126,7 +126,7 @@ def sim_all(drunkKinds, walkLengths, numTrials):
     for dClass in drunkKinds:
         drunk_test(walkLengths, numTrials, dClass)
 
-random.seed(0)
+random.seed()
 sim_all((UsualDrunk, ColdDrunk), (10, 100, 1000, 10000), 100)
 #drunk_test((10, 100, 1000, 10000), 100, UsualDrunk)
 #drunk_test((0, 1, 2), 100, UsualDrunk)

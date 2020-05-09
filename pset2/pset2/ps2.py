@@ -130,6 +130,7 @@ class RectangularRoom(object):
         returns: an integer
         """
         return len(self.tiles)
+        
         #raise NotImplementedError
 
     def getNumCleanedTiles(self):
